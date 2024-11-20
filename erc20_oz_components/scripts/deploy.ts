@@ -16,7 +16,7 @@ async function main() {
     const account0 = new Account(provider, accountAddress0, privateKey0);
     console.log("Account connected.\n");
 
-    // Declare & deploy contract
+    // Declare & deploy contract      
     let sierraCode, casmCode;
 
     try {
